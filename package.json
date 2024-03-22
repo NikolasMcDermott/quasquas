@@ -1,0 +1,46 @@
+{
+  "name": "quasquas",
+  "version": "1.0.0",
+  "description": "Squarelink's Web3 library",
+  "main": "dist/index.js",
+  "module": "es/index.js",
+  "browser": "lib/squarelink.min.js",
+  "files": [
+    "/dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NikolasMcDermott/quasquas.git"
+  },
+  "keywords": [
+    "nobis",
+    "sit",
+    "ethereum",
+    "squarelink",
+    "blockchain",
+    "dapp",
+    "dapps",
+    "cryptocurrency"
+  ],
+  "author": "TavaresLang",
+  "license": "MIT",
+  "dependencies": {
+    "bignumber.js": "^9.0.0",
+    "squarelink-provider-engine": "^15.0.5"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.4",
+    "babel-plugin-add-module-exports": "1.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-preset-env": "1.7.0",
+    "dotenv": "^8.1.0",
+    "dts-bundle": "0.7.3",
+    "replace-in-file": "3.4.3",
+    "rimraf": "2.6.1",
+    "typescript": "3.2.2",
+    "webpack": "4.28.3",
+    "webpack-cli": "^3.3.8"
+  }
+}
